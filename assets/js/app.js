@@ -8,7 +8,7 @@ let result = ``;
 movieArr.forEach(function(movie){
 	result += `
 		<div class="col-md-3">
-			<div class="card mb-4">
+			<div class="card mb-4 cardThambnails">
 				<figure class="posterImg">
 					<img src="${imgUrl}${movie.backdrop_path}" alt="${movie.title} Image" title="${movie.title}">
 					<figcaption class="posterInfo p-3 bg-dark">

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 .heroImg{
 	background-color:#000000;
+	font-family: 'Poppins', sans-serif;
 }
 
 .logo{
@@ -15,6 +18,10 @@
 	text-decoration:none;
 	color:#ffffff;
 	transform:scale(1.05,1.05);
+}
+
+.cardThambnails:hover{
+	transform:scale(1.05,1.02);
 }
 
 .posterImg{
