@@ -20,6 +20,10 @@
 	transform:scale(1.05,1.05);
 }
 
+.cardThambnails{
+	transition: all 0.4s ease-in-out;
+}
+
 .cardThambnails:hover{
 	transform:scale(1.05,1.02);
 }
